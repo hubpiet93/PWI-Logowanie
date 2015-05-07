@@ -1,0 +1,331 @@
+@import "../css/Animate.css";
+#menu {
+  background-color: #5e60ff;
+  padding-top: 20px;
+  padding-bottom: 0;
+  height: 130px;
+}
+.navbar {
+  background-color: #5e60ff;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  padding-right: 120px;
+}
+.navbar .navbar-header #witaj {
+  font-size: 1.8em;
+  color: #fcd66b;
+  margin-left: 10px;
+}
+.navbar .navbar-header #wyloguj_btn1 {
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: 300;
+}
+.navbar .navbar-header button span {
+  background-color: white;
+}
+.navbar .navbar-header a {
+  color: white;
+  font-size: 2em;
+}
+.navbar .navbar-collapse .navbar-nav ul > li:hover {
+  display: block;
+  color: #fc4349;
+  border-color: #fc4349;
+  transition: all 0.7s ease;
+}
+.navbar .navbar-collapse .navbar-nav > li > a {
+  margin-left: 5px;
+  border-bottom: 5px solid transparent;
+  color: white;
+}
+.navbar .navbar-collapse .navbar-nav > li > a:hover {
+  display: block;
+  border-color: #fc4349;
+  transition: all 0.7s ease;
+  background-color: #5e60ff;
+}
+.navbar .navbar-collapse .navbar-nav > .active {
+  background-color: #5e60ff;
+}
+.navbar .navbar-collapse .navbar-nav > .active > a {
+  display: block;
+  border-color: #fc4349;
+  background-color: #5e60ff;
+}
+.navbar .navbar-collapse .navbar-nav > .active > a:hover {
+  background-color: #5e60ff;
+}
+.navbar .navbar-collapse .navbar-nav > li > a:focus {
+  background-color: #5e60ff;
+}
+.carousel {
+  padding-top: 90px;
+  padding-bottom: 0;
+  width: 100%;
+}
+.carousel .item {
+  width: 100%;
+  height: 900px;
+}
+.carousel .item img {
+  width: 100%;
+  height: 900px;
+}
+.carousel-caption {
+  top: 50px;
+  bottom: auto;
+}
+.carousel-caption > h1 {
+  font-size: 4.5em;
+  color: #ffd800;
+}
+#ostronie {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+#ostronie .ostronie-nag {
+  padding-bottom: 20px;
+}
+#ostronie .panel-heading a {
+  text-decoration: none;
+}
+#ostronie .panel-heading a h2 {
+  color: #fc4349;
+}
+#ostronie .panel-heading a h2:hover span {
+  -webkit-animation: slideOutDown.8s;
+  animation: slideOutDown .8s;
+}
+#ostronie .panel-heading a:hover {
+  text-decoration: none;
+}
+#ikony {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fc4349;
+}
+#ikony img {
+  width: 200px;
+  height: 150px;
+}
+#ikony img:hover {
+  -webkit-animation: rubberBand .8s;
+  animation: rubberBand .8s;
+}
+#omnie {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #20b2aa;
+  text-align: center;
+}
+#omnie .omnie-nag {
+  text-align: center;
+  font-size: 76em;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 10px;
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+#omnie .omnie-cialo img.img-responsive {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+#omnie .omnie-cialo img.img-responsive:hover {
+  -webkit-animation: pulse .8s;
+  animation: pulse .8s;
+}
+#omnie .omnie-cialo a {
+  text-align: center;
+  background-color: #20b2aa;
+  border-color: white;
+  color: white;
+  width: 200px;
+  height: 60px;
+  line-height: 45px;
+  font-size: 1.5em;
+  letter-spacing: 8px;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+#omnie .omnie-cialo a:hover {
+  background-color: white;
+  color: #20b2aa;
+}
+#zadania {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #dddddd;
+}
+#zadania .zadania-nag {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#zadania div a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ddd;
+  margin-bottom: 40px;
+  border: none;
+}
+#zadania div a:hover {
+  -webkit-animation: swing .8s;
+  animation: swing .8s;
+  border: none;
+}
+.zadanie {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #dddddd;
+}
+.zadanie .zadanie-opis img {
+  width: 660px;
+  height: 400px;
+}
+.zadanie .zadanie-nag h2 {
+  color: #fc4349;
+  font-size: 3em;
+  font-family: cursive;
+}
+.zadanie .zadanie-nag h4 {
+  color: #aaa;
+  font-size: 1.5em;
+  padding-bottom: 120px;
+}
+.zadanie .zadanie-nag h3 {
+  color: darkorange;
+  font-size: 2em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dddddd;
+}
+.zadanie .zadanie-nag p {
+  color: #aaa;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+#zadanie4 .zadanie-opis table tr td {
+  text-align: left;
+}
+#zadanie4 .zadanie-opis h4 {
+  color: #ddd;
+}
+#zadanie6 .zadanie-opis #logowanie_ods {
+  margin-top: 30px;
+}
+#zadanie6 .zadanie-opis #rejestracja_ods {
+  margin-top: 30px;
+}
+#kontakt {
+  padding-top: 120px;
+  padding-bottom: 200px;
+  margin-bottom: 0;
+}
+#kontakt .kontakt-nag {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#kontakt .kontakt-nag h2 {
+  font-size: 4em;
+  color: #fc4349;
+  font-family: cursive;
+}
+button.wyslij:hover {
+  -webkit-animation: shake .8s;
+  animation: shake .8s;
+}
+#stopka {
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #20b2aa;
+}
+#stopka h3 {
+  color: white;
+  font-size: 2.5em;
+}
+#modal-me .modal-content {
+  text-align: center;
+}
+#modal-me .modal-content .modal-header {
+  text-align: center;
+}
+#modal-me .modal-content .modal-header h4 {
+  font-size: 2em;
+  color: #fc4349;
+}
+#modal-me .modal-content .modal-header h3 {
+  font-size: 1.2em;
+  color: #ccc;
+}
+#modal-me .modal-content .modal-body .img-responsive {
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+}
+#modal-me .modal-content .modal-body p {
+  padding-top: 50px;
+  color: #aaa;
+}
+#logowanie {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+#logowanie .ramka {
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+#logowanie .ramka .bg-warning {
+  color: #fc4349;
+  font-size: 1.3em;
+}
+#logowanie .ramka div #Label7 {
+  font-size: 2em;
+  color: #fc4349;
+}
+#logowanie .bg-danger {
+  margin-top: 40px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel .item {
+    height: 600px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel .item {
+    height: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel .item {
+    height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel {
+    display: none;
+  }
+  .carousel .item {
+    height: 200px;
+  }
+  #ostronie {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-header #witaj {
+    font-size: 1.2em;
+    margin-left: 3px;
+  }
+}

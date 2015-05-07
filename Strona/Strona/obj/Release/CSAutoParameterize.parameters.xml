@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="UsersPolaczenie-Web.config Connection String" description="UsersPolaczenie Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=UsersDB;Integrated Security=SSPI; AttachDBFilename=|DataDirectory|\Users.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hubert\\Desktop\\PWI\ GitHub\ -\ Kopia\ \(2\)\\PWI\\Strona\\Strona\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsersPolaczenie']/@connectionString" />
+  </parameter>
+  <parameter name="UsersPolaczenie_DatabasePublish-Web.config Connection String" description="UsersPolaczenie_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="UsersPolaczenie_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hubert\\Desktop\\PWI\ GitHub\ -\ Kopia\ \(2\)\\PWI\\Strona\\Strona\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsersPolaczenie_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

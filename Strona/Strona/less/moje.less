@@ -1,0 +1,482 @@
+﻿@import "../css/Animate.css";
+//================//
+//================//
+//    VARIABLES   //
+//================//
+//================//
+@h1-size: 4.5em;
+
+@kolor-menu: #5E60FF;
+@menu-czcionka: 1.5rem;
+@kolor-podswietlenie-tla: #5a10FF; // do zmiany
+@czerwony: #fc4349;
+@turkus: #20B2AA;
+@kolor-caption: #ffd800;
+@linia: 2px solid #ddd;
+//================//
+//================//
+//      MIXINS    //
+//================//
+//================//
+.padding-top-bottom(@gora,@dol) {
+    padding-top: @gora;
+    padding-bottom: @dol;
+}
+
+.podswietlenie-tla(@kolor) {
+    background-color: @kolor;
+    transition: all 0.5s ease;
+}
+//================//
+//================//
+//    LESS CSS    //
+//================//
+//================//
+
+body {
+}
+//-----MENU-------//
+#menu {
+    background-color: @kolor-menu;
+    .padding-top-bottom(20px,0);
+    height: 130px;
+}
+
+
+
+
+.navbar {
+    background-color: @kolor-menu;
+    font-size: @menu-czcionka;
+    .padding-top-bottom(3rem,0);
+    padding-right: 120px;
+
+    .navbar-header {
+        #witaj {
+            font-size: 1.8em;
+            color: #fcd66b;
+            margin-left: 10px;
+        }
+
+        #wyloguj_btn1 {
+            text-decoration: underline;
+            font-size: 1em;
+            font-weight: 300;
+        }
+
+        button span {
+            background-color: white;
+        }
+
+        a {
+            color: white;
+            font-size: 2em;
+        }
+    }
+}
+
+.navbar .navbar-collapse .navbar-nav {
+    ul > li:hover {
+        display: block;
+        color: #fc4349;
+        border-color: @czerwony;
+        transition: all 0.7s ease;
+    }
+
+    > li > a {
+        margin-left: 5px;
+        border-bottom: 5px solid transparent;
+        color: white;
+
+        &:hover {
+            display: block;
+            border-color: @czerwony;
+            transition: all 0.7s ease;
+            background-color: @kolor-menu;
+        }
+    }
+
+    > .active {
+        background-color: @kolor-menu;
+
+        > a {
+            display: block;
+            border-color: @czerwony;
+            background-color: @kolor-menu;
+
+            &:hover {
+                background-color: @kolor-menu;
+            }
+        }
+    }
+
+    > li > a:focus {
+        background-color: @kolor-menu;
+    }
+}
+
+
+//-----KARUZELA-------//
+
+.carousel {
+    .padding-top-bottom(90px,0);
+    width: 100%;
+
+    .item {
+        width: 100%;
+        height: 900px;
+
+        img {
+            width: 100%;
+            height: 900px;
+        }
+    }
+}
+
+.carousel-caption {
+    top: 50px;
+    bottom: auto;
+
+    > h1 {
+        font-size: @h1-size;
+        color: @kolor-caption;
+    }
+}
+
+//-----O STRONIE-------//
+
+#ostronie {
+    .padding-top-bottom(100px,100px);
+    text-align: center;
+
+    .ostronie-nag {
+        padding-bottom: 20px;
+    }
+
+    .panel-heading {
+        a {
+            text-decoration: none;
+
+            h2 {
+                color: @czerwony;
+
+                &:hover {
+                    span {
+                        -webkit-animation: slideOutDown.8s;
+                        animation: slideOutDown .8s;
+                    }
+                }
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+//-----TECHNOLOGIE-------//
+
+#ikony {
+    .padding-top-bottom(100px,100px);
+    background-color: @czerwony;
+
+    img {
+        width: 200px;
+        height: 150px;
+
+        &:hover {
+            -webkit-animation: rubberBand .8s;
+            animation: rubberBand .8s;
+        }
+    }
+}
+
+//-----OMNIE-------//
+#omnie {
+    .padding-top-bottom(100px,100px);
+    background-color: @turkus;
+    text-align: center;
+
+    .omnie-nag {
+        text-align: center;
+        font-size: 76em;
+        color: white;
+        font-weight: 800;
+        letter-spacing: 10px;
+        .padding-top-bottom(0,100px);
+    }
+
+    .omnie-cialo {
+
+        img.img-responsive {
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+
+            &:hover {
+                -webkit-animation: pulse .8s;
+                animation: pulse .8s;
+            }
+        }
+
+        a {
+            text-align: center;
+            background-color: @turkus;
+            border-color: white;
+            color: white;
+            width: 200px;
+            height: 60px;
+            line-height: 45px;
+            font-size: 1.5em;
+            letter-spacing: 8px;
+            vertical-align: middle;
+            margin-top: 50px;
+
+            &:hover {
+                background-color: white;
+                color: @turkus;
+            }
+        }
+    }
+}
+
+//-----ZADANIA-------//
+#zadania {
+    .padding-top-bottom(200px,100px);
+    border-bottom: @linia;
+
+    .zadania-nag {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    div a {
+        .padding-top-bottom(30px,30px);
+        background-color: #ddd;
+        margin-bottom: 40px;
+        border: none;
+
+        &:hover {
+            -webkit-animation: swing .8s;
+            animation: swing .8s;
+            border: none;
+        }
+    }
+}
+//-----ZADANIE------//
+.zadanie {
+    text-align: center;
+    .padding-top-bottom(160px,100px);
+    border-bottom: @linia;
+
+    .zadanie-opis {
+        img {
+            width: 660px;
+            height: 400px;
+        }
+    }
+
+    .zadanie-nag {
+        h2 {
+            color: @czerwony;
+            font-size: 3em;
+            font-family: cursive;
+        }
+
+        h4 {
+            color: #aaa;
+            font-size: 1.5em;
+            padding-bottom: 120px;
+        }
+
+        h3 {
+            color: darkorange;
+            font-size: 2em;
+            padding-bottom: 10px;
+            border-bottom: @linia;
+        }
+
+        p {
+            color: #aaa;
+            font-size: 1.5em;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+#zadanie4 {
+    .zadanie-opis {
+        table {
+            tr {
+                td {
+                    text-align: left;
+                }
+            }
+        }
+
+        h4 {
+            color: #ddd;
+        }
+    }
+}
+
+#zadanie6 {
+    .zadanie-opis {
+        #logowanie_ods {
+            margin-top: 30px;
+        }
+        #rejestracja_ods{
+            margin-top:30px;
+        }
+    }
+}
+
+#kontakt {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+
+    .kontakt-nag {
+        text-align: center;
+        padding-bottom: 50px;
+
+        h2 {
+            font-size: 4em;
+            color: @czerwony;
+            font-family: cursive;
+        }
+    }
+}
+
+button.wyslij:hover {
+    -webkit-animation: shake .8s;
+    animation: shake .8s;
+}
+
+#stopka {
+    margin-top: 0;
+    .padding-top-bottom(50px,50px);
+    width: 100%;
+    text-align: center;
+    background-color: @turkus;
+
+    h3 {
+        color: white;
+        font-size: 2.5em;
+    }
+}
+
+
+//-----OKNA MODALNE------//
+#modal-me .modal-content {
+    text-align: center;
+
+    .modal-header {
+        text-align: center;
+
+        h4 {
+            font-size: 2em;
+            color: @czerwony;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+    }
+
+    .modal-body {
+        .img-responsive {
+            margin: 0 auto;
+            height: 300px;
+            width: 300px;
+        }
+
+        p {
+            padding-top: 50px;
+            color: #aaa;
+        }
+    }
+}
+
+
+
+//-----LOGOWANIE------//
+
+#logowanie {
+    .padding-top-bottom(200px,200px);
+    text-align: center;
+
+    .ramka {
+        padding: 50px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        .bg-warning{
+            color:@czerwony;
+            font-size:1.3em;
+        }
+        div #Label7{
+            font-size:2em;
+            color:@czerwony;
+        }
+        
+    }
+
+    .bg-danger {
+        margin-top: 40px;
+    }
+}
+
+@media(min-width: 1200px) {
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .carousel .item {
+        height: 600px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .carousel .item {
+        height: 500px;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .carousel .item {
+        height: 300px;
+    }
+}
+
+
+@media(max-width: 480px) {
+    .carousel {
+        display: none;
+    }
+
+    .carousel .item {
+        height: 200px;
+    }
+
+    #ostronie {
+        padding-top: 150px;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar {
+        .navbar-header {
+            #witaj {
+                font-size: 1.2em;
+                margin-left: 3px;
+            }
+        }
+    }
+}

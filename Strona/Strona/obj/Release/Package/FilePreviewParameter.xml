@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="hubertpietruczuk" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Hubert\\Desktop\\PWI\ GitHub\ -\ Kopia\ \(2\)\\PWI\\Strona\\Strona\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Hubert\\Desktop\\PWI\ GitHub\ -\ Kopia\ \(2\)\\PWI\\Strona\\Strona\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="UsersPolaczenie-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0;Initial Catalog=UsersDB;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hubert\\Desktop\\PWI\ GitHub\ -\ Kopia\ \(2\)\\PWI\\Strona\\Strona\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsersPolaczenie']/@connectionString" />
+  </parameter>
+</parameters>
