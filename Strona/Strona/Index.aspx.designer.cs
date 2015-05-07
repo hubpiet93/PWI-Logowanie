@@ -220,6 +220,15 @@ namespace Strona {
         protected global::System.Web.UI.WebControls.Button rejestracja_ods;
         
         /// <summary>
+        /// informacje_ods control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button informacje_ods;
+        
+        /// <summary>
         /// Zadanie6 control.
         /// </summary>
         /// <remarks>

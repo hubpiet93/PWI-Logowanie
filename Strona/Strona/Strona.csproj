@@ -85,6 +85,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="css\Animate.css" />
     <Content Include="css\moje.css" />
+    <Content Include="Details.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Icon.png" />
@@ -137,6 +138,13 @@
   <ItemGroup>
     <Compile Include="DAL\MY_DBContext.cs" />
     <Compile Include="DAL\MY_DBInitializer.cs" />
+    <Compile Include="Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

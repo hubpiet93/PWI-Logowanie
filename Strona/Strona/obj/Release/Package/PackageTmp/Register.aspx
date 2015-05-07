@@ -34,7 +34,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand hidden-xs hidden-sm" href="#">Menu</a>
+                                <a class="navbar-brand hidden-xs hidden-sm" href="Index.aspx">PWI</a>
 
                                 <asp:Label ID="witaj" CssClass="navbar-brand" runat="server" Text=""></asp:Label>
                                 <asp:LinkButton ID="wyloguj_btn1" CssClass="navbar-brand" OnClick="wyloguj_btn_Click" runat="server">wyloguj</asp:LinkButton>
@@ -60,7 +60,7 @@
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8  col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
                         <div class="ramka">
                             <div>
-                                <asp:Label ID="Label7" runat="server" Text="asdasda"></asp:Label>
+                                <asp:Label ID="Label7" runat="server" Text=""></asp:Label>
                             </div>
                             <div class="row">
                                 

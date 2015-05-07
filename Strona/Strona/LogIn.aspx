@@ -34,7 +34,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand hidden-xs hidden-sm" href="Index.aspx">Menu</a>
+                                <a class="navbar-brand hidden-xs hidden-sm" href="Index.aspx">PWI</a>
 
                                 <asp:Label ID="witaj" CssClass="navbar-brand" runat="server" Text=""></asp:Label>
                                 <asp:LinkButton ID="wyloguj_btn1" CssClass="navbar-brand" OnClick="wyloguj_btn_Click" runat="server">wyloguj</asp:LinkButton>

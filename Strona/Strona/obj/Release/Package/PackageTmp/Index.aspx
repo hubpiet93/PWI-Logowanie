@@ -35,7 +35,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand hidden-xs hidden-sm" href="#">Menu</a>
+                                <a class="navbar-brand hidden-xs hidden-sm" href="Index.aspx">PWI</a>
 
                                 <asp:Label ID="witaj" CssClass="navbar-brand" runat="server" Text=""> </asp:Label>
                                 <asp:LinkButton ID="wyloguj_btn1" CssClass="navbar-brand" OnClick="wyloguj_btn_Click" runat="server">wyloguj</asp:LinkButton>
@@ -434,14 +434,24 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow fadeInLeft">
                         <h3>Opis zadania:</h3>
                         <p>
-                            Tematem drugiego zadania było stworzenie strony dowolnej gry opartej tylko na technologii JavaScript. Ja postanowiłem zrobić popularną grę kółko i krzyżyk.
+                            Tematem szustego zadania było stworzenie funkcjonalnego mechanizmu logowania i rejestracji.
                         </p>
-
-                        <div>
-                            <asp:Button ID="logowanie_ods" CssClass="btn btn-success" OnClick="Logowanie_Click" runat="server" Text="Logowanie" />
-                        </div>
-                        <div>
-                            <asp:Button ID="rejestracja_ods" CssClass="btn btn-success" OnClick="rejestracja_ods_Click" runat="server" Text="Rejestracja" />
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div>
+                                    <asp:Button ID="logowanie_ods" CssClass="btn btn-success" OnClick="Logowanie_Click" runat="server" Text="Logowanie" />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div>
+                                    <asp:Button ID="rejestracja_ods" CssClass="btn btn-success" OnClick="rejestracja_ods_Click" runat="server" Text="Rejestracja" />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div>
+                                    <asp:Button ID="informacje_ods" CssClass="btn btn-success" OnClick="informacje_ods_Click" runat="server" Text="Szczegóły" />
+                                </div>
+                            </div>
                         </div>
 
                     </div>

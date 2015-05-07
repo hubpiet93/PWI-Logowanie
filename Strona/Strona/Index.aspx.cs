@@ -128,5 +128,10 @@ namespace Strona
             Response.Redirect("Register.aspx");
         }
 
+        protected void informacje_ods_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Details.aspx");
+        }
+
     }
 }

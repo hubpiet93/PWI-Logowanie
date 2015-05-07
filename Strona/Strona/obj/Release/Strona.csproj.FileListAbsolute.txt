@@ -18,3 +18,17 @@ C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI\Strona\Strona\obj\Release\Str
 C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI\Strona\Strona\obj\Release\Strona.csproj.GenerateResource.Cache
 C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI\Strona\Strona\obj\Release\Strona.dll
 C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI\Strona\Strona\obj\Release\Strona.pdb
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\Strona.dll.config
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\Strona.dll
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\Strona.pdb
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\EntityFramework.dll
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\EntityFramework.SqlServer.dll
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\EntityFramework.xml
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\bin\EntityFramework.SqlServer.xml
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.csprojResolveAssemblyReference.cache
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.Migrations.InitialCreate.resources
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.Migrations.kolekcja.resources
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.Migrations.haslo.resources
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.csproj.GenerateResource.Cache
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.dll
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Release\Strona.pdb
