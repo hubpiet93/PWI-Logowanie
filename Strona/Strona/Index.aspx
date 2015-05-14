@@ -434,22 +434,30 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow fadeInLeft">
                         <h3>Opis zadania:</h3>
                         <p>
-                            Tematem szustego zadania było stworzenie funkcjonalnego mechanizmu logowania i rejestracji.
+                            Tematem szóstego zadania było stworzenie funkcjonalnego mechanizmu logowania i rejestracji.
                         </p>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div>
                                     <asp:Button ID="logowanie_ods" CssClass="btn btn-success" OnClick="Logowanie_Click" runat="server" Text="Logowanie" />
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div>
                                     <asp:Button ID="rejestracja_ods" CssClass="btn btn-success" OnClick="rejestracja_ods_Click" runat="server" Text="Rejestracja" />
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div>
                                     <asp:Button ID="informacje_ods" CssClass="btn btn-success" OnClick="informacje_ods_Click" runat="server" Text="Szczegóły" />
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div>
+                                   <a href="https://github.com/hubpiet93/PWI-Logowanie " style="margin-top:20px;" class="btn btn-info">Link do kodu na github</a>
                                 </div>
                             </div>
                         </div>
