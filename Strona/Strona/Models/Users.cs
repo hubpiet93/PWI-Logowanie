@@ -14,6 +14,7 @@ namespace Strona.Models
         public string City { get; set; }
         public string Nationality{ get; set; }
         public string E_mail { get; set; }
+        public string PostCode { get; set; }
         public string Password { get; set; }
         public string Phone { get; set; }
 

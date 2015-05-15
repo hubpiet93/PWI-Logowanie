@@ -20,7 +20,7 @@
     </script>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" action="LogIn.aspx" runat="server">
         <div id="cos">lalala</div>
         <header id="menu" class="navbar-fixed-top">
             <div class="container">

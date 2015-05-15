@@ -19,7 +19,7 @@
         new WOW().init();
     </script>
 </head>
-<body><form id="form1" runat="server">
+<body><form id="form1" action="Details.aspx" runat="server">
         <div id="cos">lalala</div>
         <header id="menu" class="navbar-fixed-top">
             <div class="container">
@@ -83,6 +83,15 @@
                                 </div>
                                 <asp:Label ID="nationality_label" runat="server" Text=""></asp:Label>
                             </div>
+
+                             <div class="row">
+                                <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs form-group ">
+                                    <asp:Label ID="Label2" runat="server" Text="Kod pocztowy: "></asp:Label>
+                                </div>
+                                <asp:Label ID="postcode_label" runat="server" Text=""></asp:Label>
+                            </div>
+
+
                             <div class="row">
                                 <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs form-group ">
                                     <asp:Label ID="Label6" runat="server" Text="E-mail: "></asp:Label>

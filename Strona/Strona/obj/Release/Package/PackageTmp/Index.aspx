@@ -21,7 +21,7 @@
     <script src="js/facebook.js"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" action="Index.aspx" runat="server">
         <div id="cos">lalala</div>
         <header id="menu" class="navbar-fixed-top">
             <div class="container">

@@ -145,7 +145,28 @@ namespace Strona
                 }
                 można_rejestrować = true;
             }
-
+            //walidacja postcode
+            if (postcode.Text=="")
+            {
+                można_rejestrować = false;
+                errorpostcode.Text = "Pole nie może być puste";
+            }
+            else
+            {
+                errorpostcode.Text = "";
+                Regex testpostcode = new Regex(@"^[0-9]{2}\-[0-9]{3}$");
+                if (testpostcode.IsMatch(postcode.Text))
+                {
+                    errorpostcode.Text = "";
+                    można_rejestrować = true;
+                }
+                else
+                {
+                    errorpostcode.Text = "Niepoprawny kod pocztowy";
+                    można_rejestrować = false;
+                }
+                można_rejestrować = true;
+            }
 
             //walidacja email
             if (e_mail.Text=="")
@@ -252,7 +273,7 @@ namespace Strona
                 {
 
                     string hash_password = HashingPasswords.Kodowanie.Encrypt(password.Text);
-                    Users newuser = new Users() { UserName = username.Text, Nationality = NarodowościCombo.SelectedValue, City = city.Text, E_mail = e_mail.Text, Password = hash_password, Phone = phone.Text };
+                    Users newuser = new Users() { UserName = username.Text, Nationality = NarodowościCombo.SelectedValue,PostCode = postcode.Text, City = city.Text, E_mail = e_mail.Text, Password = hash_password, Phone = phone.Text };
                     context.Users.Add(newuser);
                     context.SaveChanges();
 

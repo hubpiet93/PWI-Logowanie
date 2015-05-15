@@ -103,6 +103,24 @@ namespace Strona {
         protected global::System.Web.UI.WebControls.Label nationality_label;
         
         /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// postcode_label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label postcode_label;
+        
+        /// <summary>
         /// Label6 control.
         /// </summary>
         /// <remarks>

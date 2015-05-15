@@ -20,7 +20,7 @@
     </script>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" action="Register.aspx" runat="server">
         <div id="cos">lalala</div>
         <header id="menu" class="navbar-fixed-top">
             <div class="container">
@@ -91,6 +91,17 @@
                                 </div>
                                 <div class="col-sm-8 col-md-8 col-lg-8 form-group ">
                                     <asp:DropDownList ID="NarodowościCombo" CssClass="form-control" runat="server"></asp:DropDownList>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs form-group ">
+                                    <asp:Label ID="Label8" runat="server" Text="Kod pocztowy: "></asp:Label>
+                                </div>
+                                <div class="col-sm-8 col-md-8 col-lg-8 form-group ">
+                                    <asp:TextBox ID="postcode" TextMode="SingleLine" CssClass="form-control" placeholder="Poczta XX-XXX" runat="server" title="XX-XXX" data-toggle="tooltip" data-placement="top"></asp:TextBox>
+                                    <p class="bg-warning">
+                                        <asp:Label ID="errorpostcode" runat="server" Text=""></asp:Label>
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">

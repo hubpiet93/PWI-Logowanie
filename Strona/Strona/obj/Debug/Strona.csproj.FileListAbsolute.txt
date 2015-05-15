@@ -37,3 +37,4 @@ C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\D
 C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Debug\Strona.csproj.GenerateResource.Cache
 C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Debug\Strona.dll
 C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Debug\Strona.pdb
+C:\Users\Hubert\Desktop\PWI GitHub - Kopia (2)\PWI-Logowanie\Strona\Strona\obj\Debug\Strona.Migrations.postcode.resources

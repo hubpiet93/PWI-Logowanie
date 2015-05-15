@@ -23,8 +23,8 @@ namespace Strona.DAL
         {
             var users = new List<Users>
             {
-                new Users(){UserId=1,UserName="hubpiet93",Nationality="Poland",City="Warsaw",E_mail="pietruczukhubert@gmail.com",Password="haselko",Phone="519854891"},
-                new Users(){UserId=2,UserName="grother",Nationality="Poland",City="Warsaw",E_mail="hubertpietruczuk@interia.pl",Password="nic",Phone="519854891"},
+                new Users(){UserId=1,UserName="hubpiet93",Nationality="Poland",City="Warsaw",E_mail="pietruczukhubert@gmail.com",PostCode="08-210",Password="haselko",Phone="519854891"},
+                new Users(){UserId=2,UserName="grother",Nationality="Poland",City="Warsaw",E_mail="hubertpietruczuk@interia.pl",PostCode="08-210",Password="nic",Phone="519854891"},
                 
             };
             users.ForEach(user => context.Users.AddOrUpdate(user));

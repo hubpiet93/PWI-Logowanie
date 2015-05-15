@@ -78,6 +78,7 @@ namespace Strona
                 city_label.Text = current_user.City;
                 nationality_label.Text = current_user.Nationality;
                 email_label.Text = current_user.E_mail;
+                postcode_label.Text = current_user.PostCode;
                 phone_label.Text = current_user.Phone;
             }
             catch (Exception)

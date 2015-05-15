@@ -168,6 +168,10 @@
     <Compile Include="Migrations\201505051436190_haslo.Designer.cs">
       <DependentUpon>201505051436190_haslo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505151415272_postcode.cs" />
+    <Compile Include="Migrations\201505151415272_postcode.Designer.cs">
+      <DependentUpon>201505151415272_postcode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -196,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201505051436190_haslo.resx">
       <DependentUpon>201505051436190_haslo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505151415272_postcode.resx">
+      <DependentUpon>201505151415272_postcode.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
